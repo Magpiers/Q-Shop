@@ -1,0 +1,75 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Add Product</li>
+  </ol>
+</nav>
+
+<form class="text-center border border-light p-5">
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Description">
+        </div>
+    </div>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <input type="Number" class="form-control" placeholder="Retail Price">
+        </div>
+        <div class="col">
+            <select class="mdb-select form-control" placeholder="Tax1">
+            	<option value="" disabled>Tax1</option>
+            	<option value="1">1</option>
+            </select>
+        </div>
+        <div class="col">
+            <select class="mdb-select form-control" placeholder="Tax2">
+            	<option value="" disabled>Tax2</option>
+            	<option value="1">1</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <input type="number" class="form-control" placeholder="Buy Price">
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Product Code">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Bar Code">
+        </div>
+    </div>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Category">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Tags">
+        </div>
+    </div>
+    
+    <textarea class="form-control mb-4" placeholder="Internal Notes"></textarea>
+
+    <div class="custom-control custom-checkbox" style="text-align: left;">
+        <input type="checkbox" class="custom-control-input">
+        <label class="custom-control-label">Temporarily Deactivate</label>
+    </div>
+
+    
+    <button class="btn btn-info col-lg-3 btn-block" style="float:right;" type="submit">Submit</button>
+
+    
+</form>
+
