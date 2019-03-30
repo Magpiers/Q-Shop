@@ -1,8 +1,9 @@
 <div class="bg-light border-right" id="sidebar-wrapper">
   <div class="sidebar-heading">Q Shop</div>
   <div class="list-group list-group-flush">
-    <a class="list-group-item list-group-item-action bg-light" routerLink="/dashboard">Dashboard</a>
-    <a class="list-group-item list-group-item-action bg-light" routerLink="/addProduct">Add Product</a>
-    <a class="list-group-item list-group-item-action bg-light" routerLink="/addClient">Add Client</a>
+    <a class="list-group-item list-group-item-action bg-light" routerLink="/dashboard" (click)="onClickSideLink('Dashboard')">Dashboard</a>
+    <a class="list-group-item list-group-item-action bg-light" routerLink="/admin" (click)="onClickSideLink('Admin')">Admin</a>
+    <a class="list-group-item list-group-item-action bg-light" routerLink="/addProduct" (click)="onClickSideLink('Add Product')">Add Product</a>
+    <a class="list-group-item list-group-item-action bg-light" routerLink="/addClient" (click)="onClickSideLink('Add Client')">Add Client</a>
   </div>
 </div>

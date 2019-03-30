@@ -3,6 +3,14 @@ body {
 }
 
 .breadcrumb {
-  min-height: 81px;
-  margin-bottom: 0px;
+    min-height: 81px;
+    margin-bottom: 0px;
+}
+
+.row {
+display: block;
+/* -ms-flex-wrap: wrap;
+flex-wrap: wrap; */
+margin-right: 0;
+margin-left: 0;
 }

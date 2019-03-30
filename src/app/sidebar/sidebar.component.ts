@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private appService: AppService) { }
 
   ngOnInit() {
+  }
+
+  onClickSideLink(selectedLink: string): void {
+    this.appService.setSelectedLink(selectedLink);
   }
 
 }
